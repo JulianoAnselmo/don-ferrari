@@ -1,0 +1,24 @@
+{
+  "name": "Don Ferrari",
+  "short_name": "Don Ferrari",
+  "description": "A melhor pizzaria de Taquaritinga — peça pelo WhatsApp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#E62525",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/imagens/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/imagens/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

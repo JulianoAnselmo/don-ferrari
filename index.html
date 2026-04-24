@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Don Ferrari | A Melhor Pizza da Cidade</title>
+  <meta name="description" content="Don Ferrari: pizzaria em Taquaritinga com delivery e retirada. Pizzas artesanais, esfihas, brotinhos e bebidas geladas.">
+  <meta name="theme-color" content="#E62525">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Don Ferrari">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="nsr58_aIHDebW8cx6QV4wadgfqWj1cVnShXP6Hab724">
+
+  <!-- FAVICON E APPLE TOUCH ICON -->
+  <link rel="icon" href="assets/imagens/logo.png" type="image/png">
+  <link rel="icon" href="assets/imagens/logo.png" type="image/webp">
+  <link rel="apple-touch-icon" href="assets/imagens/logo.png">
+
+  <!-- SEO: Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Don Ferrari | A Melhor Pizza da Cidade">
+  <meta property="og:description" content="Don Ferrari: pizzaria em Taquaritinga com delivery e retirada. Pizzas artesanais, esfihas, brotinhos e bebidas geladas.">
+  <meta property="og:image" content="https://www.donferrari.com.br/assets/imagens/ambiente-interno.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://www.donferrari.com.br/">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- SEO: Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Don Ferrari | A Melhor Pizza da Cidade">
+  <meta name="twitter:description" content="Don Ferrari: pizzaria em Taquaritinga com delivery e retirada. Pizzas artesanais, esfihas e brotinhos.">
+  <meta name="twitter:image" content="https://www.donferrari.com.br/assets/imagens/ambiente-interno.png">
+
+  <link rel="canonical" href="https://www.donferrari.com.br/">
+
+  <!-- SEO: Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "@id": "https://www.donferrari.com.br/#restaurant",
+    "name": "Don Ferrari",
+    "alternateName": "Don Ferrari",
+    "description": "Pizzaria em Taquaritinga-SP com delivery e retirada: pizzas artesanais, esfihas, brotinhos, pizzas doces e bebidas.",
+    "image": [
+      "https://www.donferrari.com.br/assets/imagens/ambiente-interno.png"
+    ],
+    "logo": "https://www.donferrari.com.br/assets/imagens/logo.png",
+    "telephone": "+5516994109862",
+    "email": "etlalimentos@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Paulo Roberto Scandar, 420 - Centro",
+      "addressLocality": "Taquaritinga",
+      "addressRegion": "SP",
+      "postalCode": "15900-001",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -21.4085,
+      "longitude": -48.5053
+    },
+    "servesCuisine": ["Pizza", "Italiana", "Brasileira"],
+    "priceRange": "R$ 20-40",
+    "url": "https://www.donferrari.com.br/",
+    "sameAs": [
+      "https://www.instagram.com/donferraripizzaria"
+    ],
+    "hasMap": "https://www.google.com/maps?q=Av.+Paulo+Roberto+Scandar,+420+-+Centro,+Taquaritinga+-+SP,+15900-001",
+    "acceptsReservations": false,
+    "paymentAccepted": ["Dinheiro", "Cartão de Crédito", "Cartão de Débito", "Pix"],
+    "currenciesAccepted": "BRL",
+    "areaServed": {
+      "@type": "City",
+      "name": "Taquaritinga"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Thursday","Sunday"], "opens": "18:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "18:00", "closes": "23:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "description": "Fechado" }
+    ],
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "name": "Delivery de Pizza",
+        "description": "Entrega em aproximadamente 50 min em Taquaritinga. Taxa R$ 8,00, pedido mínimo R$ 20.",
+        "priceCurrency": "BRL"
+      },
+      {
+        "@type": "Offer",
+        "name": "Retirada no Balcão",
+        "description": "Retire seu pedido em cerca de 30 min na Av. Paulo Roberto Scandar, 420 - Centro, Taquaritinga.",
+        "priceCurrency": "BRL"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#cardapio">Ir para o cardápio</a>
+  <div class="app-container">
+    
+    <header class="header" id="header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Don Ferrari">
+          <img src="assets/imagens/logo.png" alt="Logo Don Ferrari" class="brand-logo">
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="#cardapio" data-section="cardapio">Cardápio</a>
+          <a href="#promocoes" data-section="promocoes">Destaques</a>
+          <a href="#delivery" data-section="delivery">Delivery</a>
+          <a href="#sobre" data-section="sobre">Nossa Casa</a>
+          <a href="#avaliacoes" data-section="avaliacoes">Avaliações</a>
+          <a href="#contato" data-section="contato">Contato</a>
+        </nav>
+
+        <div class="header-actions">
+          <span class="open-status" id="openStatus" hidden>
+            <span class="open-status-dot" aria-hidden="true"></span>
+            <span class="open-status-text"></span>
+          </span>
+          <a class="btn btn-primary" href="#cardapio">Pedir Agora</a>
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- BARRA DE INFO DELIVERY -->
+      <div class="promo-bar" id="promoBar">
+        <span class="promo-bar-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          Delivery em ~50 min
+        </span>
+        <span class="promo-bar-sep">·</span>
+        <span class="promo-bar-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          Retirada em ~30 min
+        </span>
+      </div>
+
+       <!-- HERO SECTION -->
+       <section class="hero" id="inicio">
+         <div class="hero-bg-shape"></div>
+         <div class="container hero-grid">
+           <div class="hero-content reveal">
+              <div class="hero-badge">Pizzaria Italiana · Taquaritinga</div>
+              <h1>A tradição italiana<br><span class="text-yellow">no coração de Taquaritinga.</span></h1>
+              <p>Pizzas artesanais, esfihas da casa e porções para acompanhar. Peça pelo WhatsApp ou retire no balcão — quente, rápido, do jeito que você gosta.</p>
+            <div class="hero-buttons">
+               <a class="btn btn-primary btn-large" href="#cardapio">Ver Cardápio</a>
+               <a class="btn btn-promo-day btn-large" href="https://wa.me/5516994109862" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+            </div>
+              <div class="hero-tags">
+                <span class="hero-rating">
+                  <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                  <strong>5,0</strong>
+                  <span class="hero-stars">★★★★★</span>
+                  <span class="hero-rating-label">Google</span>
+                </span>
+              </div>
+          </div>
+
+          <div class="hero-image reveal reveal-delay">
+            <div class="image-showcase">
+              <img src="assets/imagens/fachada.png" alt="Fachada da Don Ferrari">
+              <div class="floating-card">
+                <div class="icon">🛵</div>
+                <div>
+                  <strong>Delivery em ~50 min</strong>
+                  <span>Retirada em ~30 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DESTAQUES / COMBOS -->
+      <section class="promos section bg-light" id="promocoes">
+        <div class="container">
+          <div class="section-header reveal text-center">
+            <span class="subtitle">Destaques da Casa</span>
+            <h2>Combos Don Ferrari</h2>
+            <p>Monte o pedido no cardápio ou chame no WhatsApp para conhecer os combos da semana.</p>
+          </div>
+
+          <div class="promo-grid">
+
+            <div class="promo-card reveal">
+              <div class="promo-tag tag-gold">Promoção</div>
+              <div class="promo-content">
+                <h3>10 ESFIHAS + GUARANÁ 2L 🥟</h3>
+                <p>Combo com variedade garantida: metade de carne, metade de mussarela + refri gelado.</p>
+                <ul>
+                  <li>🥟 5 esfihas de carne</li>
+                  <li>🧀 5 esfihas de mussarela</li>
+                  <li>🥤 1 Guaraná 2L</li>
+                </ul>
+              </div>
+              <div class="promo-footer">
+                <div class="promo-price-box">
+                  <span>Combo por</span>
+                  <strong>R$ 69,99</strong>
+                </div>
+                <a class="btn btn-primary btn-promo" href="https://wa.me/5516994109862?text=Quero%20o%20combo%2010%20esfihas%20%2B%20Guar%C3%A1n%C3%A1%202L%20por%20R%2469%2C99" target="_blank" rel="noopener">Pedir</a>
+              </div>
+            </div>
+
+            <div class="promo-card reveal reveal-delay">
+              <div class="promo-tag tag-blue">Mais Vendido</div>
+              <div class="promo-content">
+                <h3>2 PIZZAS + GUARANÁ 2L 🍕</h3>
+                <p>Sabores disponíveis: Brócolis, Calabresa, Calamussa, Frango c/ Catupiry, Lombo, Mussarela, Peito de Peru ou Portuguesa.</p>
+                <ul>
+                  <li>🍕 2 pizzas grandes (sabor à escolha)</li>
+                  <li>🥤 1 Guaraná 2L</li>
+                  <li>📝 Informe o sabor no campo observação</li>
+                </ul>
+              </div>
+              <div class="promo-footer">
+                <div class="promo-price-box">
+                  <span>Combo por</span>
+                  <strong>R$ 119,99</strong>
+                </div>
+                <a class="btn btn-primary btn-promo" href="https://wa.me/5516994109862?text=Quero%20o%20combo%202%20pizzas%20%2B%20Guar%C3%A1n%C3%A1%202L%20por%20R%24119%2C99" target="_blank" rel="noopener">Pedir</a>
+              </div>
+            </div>
+
+            <div class="promo-card reveal">
+              <div class="promo-tag tag-dark">Mais Vendido</div>
+              <div class="promo-content">
+                <h3>3 PIZZAS + GUARANÁ 2L 🍕🍕</h3>
+                <p>O combo ideal para reunir a galera. Mesmos sabores disponíveis: Brócolis, Calabresa, Calamussa, Frango c/ Catupiry, Lombo, Mussarela, Peito de Peru ou Portuguesa.</p>
+                <ul>
+                  <li>🍕 3 pizzas grandes (sabor à escolha)</li>
+                  <li>🥤 1 Guaraná 2L</li>
+                  <li>📝 Informe o sabor no campo observação</li>
+                </ul>
+              </div>
+              <div class="promo-footer">
+                <div class="promo-price-box">
+                  <span>Combo por</span>
+                  <strong>R$ 169,99</strong>
+                </div>
+                <a class="btn btn-primary btn-promo" href="https://wa.me/5516994109862?text=Quero%20o%20combo%203%20pizzas%20%2B%20Guar%C3%A1n%C3%A1%202L%20por%20R%24169%2C99" target="_blank" rel="noopener">Pedir</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CARDÁPIO DIGITAL -->
+      <section class="menu section" id="cardapio">
+        <div class="container">
+          <div class="section-header reveal text-center">
+            <span class="subtitle">Cardápio Oficial</span>
+            <h2>Faça seu Pedido</h2>
+            <p>Escolha sua pizza, monte o pedido (meio a meio disponível) e adicione ao carrinho.</p>
+          </div>
+
+          <div class="menu-tabs reveal" id="menuTabs"></div>
+          <div class="menu-panels" id="menuPanels"></div>
+        </div>
+      </section>
+
+      <!-- DELIVERY & RETIRADA -->
+      <section class="delivery-section section bg-light" id="delivery">
+        <div class="container">
+          <div class="section-header reveal text-center">
+            <span class="subtitle">Delivery & Retirada</span>
+            <h2>Peça sem sair de casa</h2>
+            <p>Pedido rápido pelo WhatsApp ou pelo cardápio digital. Entregamos na sua casa ou você retira no balcão quentinha.</p>
+          </div>
+
+          <div class="delivery-grid reveal">
+            <div class="carousel delivery-carousel" aria-roledescription="imagem" aria-label="Ambiente Don Ferrari">
+              <div class="carousel-track">
+                <img class="carousel-slide active" src="assets/imagens/ambiente-interno.png" alt="Ambiente interno da Don Ferrari" loading="lazy">
+              </div>
+            </div>
+
+            <div class="delivery-info">
+              <ul class="delivery-features">
+                <li><span>🛵</span> Delivery em aproximadamente <strong>50 minutos</strong></li>
+                <li><span>🏪</span> Retirada no balcão em cerca de <strong>30 minutos</strong></li>
+                <li><span>💰</span> Taxa de entrega: <strong>R$ 8,00</strong> · Pedido mínimo R$ 20</li>
+                <li><span>💳</span> Pix, cartão de crédito, débito e dinheiro</li>
+                <li><span>📞</span> Pedidos por WhatsApp: (16) 99410-9862</li>
+                <li><span>🍕</span> Pizzas, esfihas, brotinhos e bebidas geladas</li>
+              </ul>
+              <a class="btn btn-primary btn-large" href="https://wa.me/5516994109862" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE A PIZZARIA -->
+      <section class="about section bg-light" id="sobre">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-content reveal">
+              <span class="subtitle">Nossa Casa</span>
+              <h2>Italiano de raiz, sotaque de Taquaritinga.</h2>
+              <p>Salão aconchegante, mesas externas no centro e atendimento que trata cliente como família. A cada rodada, uma receita que atravessou gerações chega na sua mesa.</p>
+              
+              <div class="features-list" id="featuresList">
+                <!-- preenchido dinamicamente por renderFeatures() -->
+                <div class="feature-item">
+                  <div class="feat-icon">🍷</div>
+                  <div>
+                    <h4>Comida de Boteco</h4>
+                    <span>Além das pizzas, temos porções e entradas deliciosas.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="about-images single-image reveal reveal-delay">
+              <img src="assets/imagens/ambiente-interno.png" alt="Salao da Don Ferrari" class="img-main">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- AVALIAÇÕES -->
+      <section class="reviews section" id="avaliacoes">
+        <div class="container">
+          <div class="section-header reveal text-center">
+            <span class="subtitle">Avaliações</span>
+            <h2>Clientes Recomendam a Don Ferrari</h2>
+            <p>Quem pediu, voltou. Veja o que nossos clientes dizem.</p>
+          </div>
+
+          <div class="reviews-top reveal">
+            <div class="review-score-card">
+              <span class="review-score-label">Avaliações na Web</span>
+              <strong>5.0/5</strong>
+              <p>Facebook · 10 votos</p>
+            </div>
+            <div class="review-score-card">
+              <span class="review-score-label">Comentários no Google</span>
+              <strong>Clientes satisfeitos</strong>
+              <p>Destaques reais de quem já pediu</p>
+            </div>
+          </div>
+
+          <div class="reviews-grid reveal reveal-delay">
+            <article class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p>"Melhor pizza e esfirra da cidade, atendimento ótimo, ambiente super agradável."</p>
+              <span>Junior França</span>
+            </article>
+            <article class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p>"Equipe muito boa e comida melhor ainda."</p>
+              <span>Isadora B Barbosa</span>
+            </article>
+            <article class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p>"Além de sabores incríveis, borda recheada top!!"</p>
+              <span>Nathalia Juliana Borelli Felix</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO & MAPA -->
+      <section class="contact section" id="contato">
+        <div class="container">
+          <div class="contact-box reveal">
+            <div class="contact-info">
+              <h2>Venha para Don Ferrari</h2>
+              <p id="contact-address">Av. Paulo Roberto Scandar, 420 - Centro<br>Taquaritinga - SP, 15900-001</p>
+
+              <div class="contact-hours">
+                <strong>Horário de Funcionamento:</strong>
+                <span id="contact-hours">
+                  <span class="hours-line"><strong>Qui, Dom, Seg e Qua:</strong> 18h00 às 23h00</span><br>
+                  <span class="hours-line"><strong>Sex e Sáb:</strong> 18h00 às 23h30 · <strong>Terça:</strong> fechado</span>
+                </span>
+              </div>
+              
+              <a href="tel:+5516994109862" id="contact-phone" class="contact-phone-link">(16) 99410-9862</a>
+
+              <div class="contact-social-links">
+                <a href="https://wa.me/5516994109862" target="_blank" rel="noopener" class="btn btn-primary btn-large" id="contact-whatsapp-link">Enviar Mensagem</a>
+                <a href="https://www.instagram.com/donferraripizzaria" id="contact-instagram-link" target="_blank" rel="noopener" class="btn btn-secondary">Instagram</a>
+                <a href="https://www.google.com/maps?q=Av.+Paulo+Roberto+Scandar,+420+-+Centro,+Taquaritinga+-+SP,+15900-001" id="contact-maps-link" target="_blank" rel="noopener" class="btn btn-secondary">Ver no Google Maps</a>
+              </div>
+            </div>
+            <div class="contact-map" id="contactMap">
+              <iframe title="Mapa" loading="lazy" src="https://www.google.com/maps?q=Av.%20Paulo%20Roberto%20Scandar,%20420%20-%20Centro,%20Taquaritinga%20-%20SP,%2015900-001&output=embed"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-col footer-brand">
+          <img src="assets/imagens/logo.png" alt="Logo Don Ferrari">
+          <p>Pizzaria italiana em Taquaritinga-SP.<br>Sabor que marca presença.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/donferraripizzaria/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/5516994109862" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.74.46 3.43 1.33 4.92L2.05 22l5.29-1.39a9.87 9.87 0 0 0 4.7 1.2h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.02A9.82 9.82 0 0 0 12.04 2zm0 18.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c-.01 4.54-3.7 8.23-8.25 8.23z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegar</h4>
+          <ul>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#promocoes">Promoções</a></li>
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#sobre">Nossa Casa</a></li>
+            <li><a href="#avaliacoes">Avaliações</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="https://wa.me/5516994109862" target="_blank" rel="noopener">📱 (16) 99410-9862</a></li>
+            <li><a href="tel:+5516994102643">☎️ (16) 99410-2643</a></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&query=Av.+Paulo+Roberto+Scandar,+420,+Taquaritinga-SP" target="_blank" rel="noopener">📍 Av. Paulo Roberto Scandar, 420<br>Taquaritinga-SP</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Horário</h4>
+          <ul class="footer-hours">
+            <li><strong>Qui, Dom, Seg, Qua:</strong><br>18h00 às 23h00</li>
+            <li><strong>Sex e Sáb:</strong><br>18h00 às 23h30</li>
+            <li><strong>Terça:</strong> fechado</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom container">
+        <p class="footer-copy">© <span id="footerYear">2026</span> Don Ferrari Pizzaria · Todos os direitos reservados</p>
+        <script>document.getElementById('footerYear').textContent = new Date().getFullYear();</script>
+        <div class="footer-meta">
+          <a href="privacidade.html">Privacidade</a>
+          <span class="footer-sep">·</span>
+          <a href="https://julianoanselmo.github.io/portifolio/" target="_blank" rel="noopener">Desenvolvido por Juliano Anselmo</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <a href="https://wa.me/5516994109862" class="float-wpp" id="floatWpp" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
+      <path d="M16.11 0C7.26 0 .06 7.2 .06 16.05c0 2.82.74 5.56 2.14 8L.15 31.85l7.98-2.09c2.39 1.28 5.09 1.95 7.97 1.95 8.84 0 16.05-7.2 16.05-16.05S24.95 0 16.11 0zm0 29.07c-2.4 0-4.75-.64-6.81-1.86l-.49-.29-5.06 1.33 1.35-4.94-.32-.5A13.1 13.1 0 0 1 2.7 16.05C2.7 8.66 8.71 2.65 16.11 2.65S29.51 8.66 29.51 16.05 23.51 29.07 16.11 29.07zm7.38-10.02c-.4-.2-2.39-1.18-2.76-1.32-.37-.13-.64-.2-.91.2-.27.4-.99 1.32-1.22 1.59-.22.27-.45.3-.85.1-1.63-.82-3.13-1.89-4.26-3.1-.96-1.02-1.6-2.22-1.89-3.47-.05-.22.1-.37.28-.54.16-.16.37-.43.56-.65.18-.21.24-.36.36-.6.12-.24.06-.45-.04-.65-.1-.2-1.01-2.43-1.38-3.32-.36-.88-.72-.76-.98-.77h-.84c-.28 0-.74.1-1.13.52-.4.43-1.5 1.47-1.5 3.58 0 2.11 1.54 4.15 1.76 4.45.21.29 3.03 4.63 7.34 6.49.95.41 1.95.73 2.97.94 1.09.22 2.1.18 2.89.06 1.01-.15 2.39-.98 2.72-1.92.34-.94.34-1.74.24-1.92-.1-.18-.37-.28-.77-.48z"/>
+    </svg>
+  </a>
+
+  <!-- MODAL DE PRODUTO -->
+  <div class="modal-overlay" id="pizzaModal">
+    <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modalPizzaName">
+      <button class="btn-close" id="closeModal" aria-label="Fechar">✕</button>
+
+      <div class="modal-header-info">
+        <h3 id="modalPizzaName">Nome da Pizza</h3>
+        <p id="modalPizzaDesc">Descrição detalhada dos ingredientes.</p>
+      </div>
+
+      <div class="modal-content-scroll">
+        <div class="modal-form">
+          <div class="form-group" id="pizzaSizeWrapper">
+            <label class="form-label" for="pizzaSize">Escolha o Tamanho</label>
+            <div class="select-wrapper">
+              <select id="pizzaSize">
+                <option value="P">Pequena (4 fatias)</option>
+                <option value="M">Média (6 fatias)</option>
+                <option value="G" selected>Grande (8 fatias)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group" id="flavorSplitWrapper" style="display:none;">
+            <label class="form-label" id="flavorSplitLabel">Dividir sabores</label>
+            <div id="flavorPartsList" class="flavor-parts-list"></div>
+            <button type="button" class="btn-add-part" id="addFlavorPart">+ Adicionar parte</button>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="pizzaNotes">Alguma observação?</label>
+            <textarea id="pizzaNotes" placeholder="Ex: Tirar cebola, sem orégano..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <div class="price-display">
+          <span>Total</span>
+          <strong id="modalPrice">R$ 0,00</strong>
+        </div>
+        <button class="btn btn-primary btn-add" id="addToCartBtn">Adicionar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DO CARRINHO — WIZARD 3 ETAPAS -->
+  <div class="modal-overlay" id="cartModal">
+    <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="cartModalTitle">
+      <button class="btn-close" id="closeCartModal" aria-label="Fechar">✕</button>
+
+      <!-- Stepper de progresso -->
+      <div class="cart-stepper" id="cartStepper" aria-label="Etapas do pedido">
+        <div class="cart-step active" data-step="1">
+          <span class="cart-step-num"><span class="step-n">1</span></span>
+          <span class="cart-step-label">Itens</span>
+        </div>
+        <div class="cart-step-line"></div>
+        <div class="cart-step" data-step="2">
+          <span class="cart-step-num"><span class="step-n">2</span></span>
+          <span class="cart-step-label">Entrega</span>
+        </div>
+        <div class="cart-step-line"></div>
+        <div class="cart-step" data-step="3">
+          <span class="cart-step-num"><span class="step-n">3</span></span>
+          <span class="cart-step-label">Pagamento</span>
+        </div>
+      </div>
+
+      <div class="modal-header-info">
+        <h3 id="cartModalTitle">Seu Pedido</h3>
+      </div>
+
+      <div class="modal-content-scroll">
+
+        <!-- STEP 1: Lista de itens -->
+        <div class="cart-step-panel" data-panel="1">
+          <div class="cart-closed-warning" id="cartClosedWarning" hidden>
+            <strong>⚠️ Estamos fechados agora</strong>
+            <span>Você ainda pode enviar o pedido — vamos confirmar quando reabrir.</span>
+          </div>
+          <div id="cartItemsList" class="cart-items-list"></div>
+          <div class="cart-step-summary">
+            <span>Subtotal</span>
+            <strong id="step1Subtotal">R$ 0,00</strong>
+          </div>
+        </div>
+
+        <!-- STEP 2: Entrega -->
+        <div class="cart-step-panel" data-panel="2" hidden>
+
+          <!-- Opções de entrega com ícones -->
+          <div class="delivery-options">
+            <label class="delivery-card">
+              <input type="radio" name="deliveryOption" value="delivery" checked>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3"/><rect x="9" y="11" width="14" height="10" rx="1"/><circle cx="12" cy="21" r="1"/><circle cx="20" cy="21" r="1"/></svg>
+              <div class="delivery-card-content">
+                <strong>Entregar no meu endereço</strong>
+                <span>Taxa de Entrega: R$ 8,00</span>
+              </div>
+            </label>
+            <label class="delivery-card">
+              <input type="radio" name="deliveryOption" value="pickup">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+              <div class="delivery-card-content">
+                <strong>Retirar no Balcão</strong>
+                <span>Grátis <span class="savings-badge">Economize R$ 8,00</span></span>
+              </div>
+            </label>
+          </div>
+
+          <!-- Formulário de entrega -->
+          <div class="checkout-form" id="checkoutForm">
+            <div class="form-group">
+              <label class="form-label" for="customerName">Seu Nome</label>
+              <input type="text" id="customerName" placeholder="Ex: João da Silva" required autocomplete="name">
+              <small class="error-msg" id="customerNameError" hidden></small>
+            </div>
+
+            <div id="deliveryFields">
+              <div class="form-group">
+                <label class="form-label" for="customerCep">CEP</label>
+                <input type="text" id="customerCep" placeholder="00000-000" maxlength="9" autocomplete="postal-code" inputmode="numeric">
+                <small class="error-msg" id="customerCepError" hidden></small>
+                <small class="cep-loading-msg" id="customerCepLoading" hidden>Buscando endereço...</small>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="customerAddress">Rua e Número</label>
+                <input type="text" id="customerAddress" placeholder="Ex: Rua das Flores, 123" autocomplete="address-line1">
+                <small class="error-msg" id="customerAddressError" hidden></small>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="customerNeighborhood">Bairro</label>
+                <input type="text" id="customerNeighborhood" placeholder="Ex: Centro" autocomplete="address-level3">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="customerComplement">Complemento / Referência <span class="form-label-optional">(opcional)</span></label>
+                <input type="text" id="customerComplement" placeholder="Ex: Apto 12, próximo ao mercado" autocomplete="address-line2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 3: Pagamento -->
+        <div class="cart-step-panel" data-panel="3" hidden>
+
+          <!-- Cards de pagamento -->
+          <p class="form-label" style="margin-bottom:12px;">Forma de Pagamento</p>
+          <div class="payment-cards" role="radiogroup" aria-label="Forma de pagamento">
+            <label class="payment-card recommended">
+              <input type="radio" name="paymentMethod" value="PIX" checked>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.9 2a9.9 9.9 0 1 0 0 19.8A9.9 9.9 0 0 0 11.9 2zm-1.3 5.5 1.3-1.3 1.3 1.3-1.3 1.3zm3.9 3.9-1.3 1.3-1.3-1.3 1.3-1.3zM8 11.4l1.3-1.3 1.3 1.3-1.3 1.3zm3.9 3.9-1.3 1.3-1.3-1.3 1.3-1.3zm-3.9 0L6.7 14l1.3-1.3L9.3 14zm7.8-3.9-1.3 1.3-1.3-1.3 1.3-1.3z"/></svg>
+              <span>PIX</span>
+            </label>
+            <label class="payment-card">
+              <input type="radio" name="paymentMethod" value="Cartão de Crédito">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+              <span>Crédito</span>
+            </label>
+            <label class="payment-card">
+              <input type="radio" name="paymentMethod" value="Cartão de Débito">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+              <span>Débito</span>
+            </label>
+            <label class="payment-card">
+              <input type="radio" name="paymentMethod" value="Dinheiro">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/><path d="M5 4v2M19 4v2M5 18v2M19 18v2"/></svg>
+              <span>Dinheiro</span>
+            </label>
+          </div>
+
+          <!-- Troco -->
+          <div class="form-group" id="changeWrapper" style="display:none;">
+            <label class="form-label" for="cashChange">Troco para quanto?</label>
+            <input type="text" id="cashChange" placeholder="Ex: 100,00" inputmode="decimal">
+            <small class="change-result" id="changeResult" hidden></small>
+          </div>
+
+          <!-- Resumo do pedido -->
+          <div class="order-summary-box">
+            <div class="summary-line">
+              <span>Subtotal</span>
+              <strong id="cartSubtotalValue">R$ 0,00</strong>
+            </div>
+            <div class="summary-line">
+              <span>Taxa de Entrega</span>
+              <strong id="cartFeeValue">R$ 8,00</strong>
+            </div>
+            <div class="summary-total">
+              <span>Total a Pagar</span>
+              <strong id="cartFinalTotal">R$ 0,00</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navegação do wizard -->
+      <div class="modal-actions cart-nav">
+        <button class="btn btn-ghost" id="cartBackBtn" hidden>← Voltar</button>
+        <button class="btn btn-primary" id="cartNextBtn">Continuar →</button>
+      </div>
+
+      <!-- Overlay de confirmação (step final) -->
+      <div class="cart-confirm-overlay" id="cartConfirmOverlay" hidden aria-live="polite">
+        <div class="confirm-header">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <h3>Tudo certo?</h3>
+          <p>Confira os dados do seu pedido antes de enviar</p>
+        </div>
+        <div class="confirm-summary" id="confirmSummary"></div>
+        <div class="confirm-actions">
+          <button class="btn btn-ghost" id="confirmBackBtn">← Revisar</button>
+          <button class="btn btn-primary btn-wpp" id="confirmSendBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CARRINHO FLUTUANTE -->
+  <div class="cart-pill" id="floatingCart">
+    <div class="cart-pill-info">
+      <div class="cart-badge" id="cartCount">0</div>
+      <div class="cart-texts">
+        <span class="cart-title">Ver Carrinho</span>
+        <strong class="cart-total" id="cartTotalDisplay">R$ 0,00</strong>
+      </div>
+    </div>
+    <button class="btn btn-white" id="openCartBtn">Avançar ➔</button>
+  </div>
+
+  <script src="data/site.js" defer></script>
+  <script src="data/menu.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+  <script src="data/firestore.js" defer></script>
+</body>
+</html>

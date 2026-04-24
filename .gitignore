@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Claude Code local
+.claude/
+
+# Arquivos de trabalho / scripts de migração
+output/
+eatfood_raw.json
+pizzakid_eatfood_raw.json
+scripts/migrate-eatfood.js
+package.json
+package-lock.json
+
+# Logs e testes manuais
+server.log
+test-verification.html
+
+# Notas de desenvolvimento (não publicar)
+IMPLEMENTATION_COMPLETE.md
+IMPROVEMENTS.md
+MENU_LAYOUT_VISUAL.txt
+MENU_RESTRUCTURE.md
+PIZZA_SELECTION_FEATURE.md
+PROJECT_STATUS.md
+STATUS_FINAL.md
+
+# OS
+.DS_Store
+Thumbs.db
