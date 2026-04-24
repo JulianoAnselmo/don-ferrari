@@ -239,8 +239,11 @@ p { color: var(--text-gray); font-size: 1.1rem; }
 .delivery-carousel .carousel-slide { height: 460px; }
 .delivery-info { display: flex; flex-direction: column; gap: 24px; }
 .delivery-features { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 14px; }
-.delivery-features li { display: flex; align-items: center; gap: 14px; font-size: 1.05rem; color: var(--text-dark); background: #fff; padding: 14px 18px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm, 0 2px 6px rgba(0,0,0,0.06)); }
-.delivery-features li span { font-size: 1.5rem; }
+.delivery-features li { display: flex; align-items: center; gap: 16px; font-size: 1rem; color: var(--text-dark); background: #fff; padding: 16px 18px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm, 0 2px 6px rgba(0,0,0,0.06)); flex-wrap: wrap; }
+.delivery-icon { color: var(--primary); flex-shrink: 0; width: 26px; height: 26px; }
+.delivery-features a { color: var(--primary); font-weight: 600; text-decoration: none; transition: color .25s; }
+.delivery-features a:hover { color: var(--yellow); }
+@media (max-width: 640px) { .delivery-features li { font-size: 0.95rem; padding: 12px 14px; gap: 12px; } .delivery-icon { width: 22px; height: 22px; } }
 .delivery-info .btn { align-self: flex-start; }
 
 /* CONTATO */
